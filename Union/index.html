@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesús Hernández Orozco - 20321063</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            animation: fadeIn 3s ease;
+            transition: transform 0.3s ease; /* Agregamos una transición */
+        }
+
+        /* Efecto de escalar el título al pasar el cursor */
+        h1:hover {
+            transform: scale(1.1); /* Aumentar el tamaño en hover */
+        }
+
+        .profile-image {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.2);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #FF5733;
+            color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:hover {
+            background-color: #FF4500;
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        .button:focus {
+            outline: none;
+        }
+
+        .button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="perfil.jpg" alt="Perfil de usuario" class="profile-image">
+        <h1>Jesús Hernández Orozco - 20321063</h1>
+        <a href="https://trabajostec.com/JesusO_20321063/PracticaPersonal/" target="_blank" class="button">Página Personal</a>
+        <a href="https://trabajostec.com/JesusO_20321063/PracticaEmpresa/" target="_blank" class="button">Página Empresarial</a>
+        <a href="https://trabajostec.com/JesusO_20321063/PracticaMapa/" target="_blank" class="button">Sistema Digestivo</a>
+        <a href="https://trabajostec.com/JesusO_20321063/CuboRubik/" target="_blank" class="button">Cubo Rubik</a>
+    </div>
+</body>
+</html>
+
